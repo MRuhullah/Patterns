@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+void print4(int n)
+{
+
+    for (int i = 1; i < n; i++)
+    {
+
+        for (int j = 1; j <= i; j++)
+        {
+            cout << i << " ";
+        }
+        cout << endl;
+    }
+}
+int main()
+{
+    int n;
+    cout << "Up to which number you want to print the pattern? ";
+    cin >> n;
+    print4(n); // will go to line 3
+
+    return 0;
+}
